@@ -1,0 +1,148 @@
+
+body {
+    margin-top: 50px;
+}
+
+#fb-page {
+  width: 100%;
+}
+
+.image-bg-fluid-height,
+.image-bg-fixed-height {
+    text-align: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.image-bg-fluid-height {
+	background: url('../images/yello_guit.jpg') no-repeat center center scroll;
+  background-size: cover;
+    padding: 60px 0;
+}
+
+.image-bg-fixed-height {
+	background: url('../images/purple_guit.jpg') no-repeat center center scroll;
+  /*background-size: cover;*/
+    height: 400px;
+}
+
+.image-bg-fixed-height-2 {
+	background: url('../images/tromb.jpg') no-repeat center center scroll;
+  /*background-size: cover;*/
+    height: 400px;
+}
+
+.img-center {
+	margin: 0 auto;
+}
+
+section {
+    padding: 75px 0;
+}
+
+.title-heading {
+    margin: 15px 10px;
+    font-size: 4em;
+    color: #eee;
+    text-shadow: 2px 2px 1px black;
+    font-family: 'Luckiest Guy', cursive;
+    /*font-family: 'Oleo Script Swash Caps', cursive;*/
+}
+
+.section-heading {
+    margin: 30px 0;
+    font-size: 3em;
+    font-family: 'Luckiest Guy', cursive;
+    /*font-family: 'Oleo Script Swash Caps', cursive;*/
+}
+
+.section-lead {
+  font-family: 'Asap', sans-serif;
+    margin: 30px 0;
+}
+
+.section-paragraph {
+    margin: 30px 0;
+}
+
+footer {
+    margin: 50px 0;
+    font-family: 'Asap', sans-serif;
+}
+
+@media(max-width:768px) {
+    section {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .section-heading {
+        font-size: 2em;
+    }
+}
+
+.icon {
+  display: inline-block;
+  vertical-align: top;
+  overflow: hidden;
+  margin: 4px;
+  width: 48px;
+  height: 48px;
+  font-size: 0;
+  text-indent: -9999px;
+}
+
+.icon-nudge {
+position: relative;
+background: url("../img/icons2.png");
+background-image: url("../img/icons2.svg"), none;
+background-size: 240px 48px;
+-webkit-transition: background 0.2s;
+        transition: background 0.2s;
+}
+
+.icon-nudge::after {
+display: block;
+position: absolute;
+bottom: 0;
+left: 0;
+width: 100%;
+height: 0;
+content: "";
+-webkit-transition: height 0.2s;
+        transition: height 0.2s;
+}
+
+.icon-nudge:hover::after {
+height: 6px;
+}
+
+/* facebook */
+.icon-nudge.facebook {
+background-color: #3b5998;
+background-position: 0 0;
+}
+
+.icon-nudge.facebook:hover {
+background-position: 0 -6px;
+}
+
+.icon-nudge.facebook::after {
+background-color: #1e2e4f;
+}
+
+/* twitter */
+.icon-nudge.twitter {
+background-color: #4099ff;
+background-position: -48px 0;
+}
+
+.icon-nudge.twitter:hover {
+background-position: -48px -6px;
+}
+
+.icon-nudge.twitter::after {
+background-color: #0065d9;
+}
