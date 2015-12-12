@@ -24,13 +24,13 @@ body {
 
 .image-bg-fixed-height {
 	background: url('../images/purple_guit.jpg') no-repeat center center scroll;
-  /*background-size: cover;*/
+  background-size: cover;
     height: 400px;
 }
 
 .image-bg-fixed-height-2 {
 	background: url('../images/tromb.jpg') no-repeat center center scroll;
-  /*background-size: cover;*/
+  background-size: cover;
     height: 400px;
 }
 
