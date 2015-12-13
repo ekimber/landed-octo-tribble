@@ -19,19 +19,25 @@ body {
 .image-bg-fluid-height {
 	background: url('../images/yello_guit.jpg') no-repeat center center scroll;
   background-size: cover;
-    padding: 60px 0;
+  padding: 60px 0;
 }
 
 .image-bg-fixed-height {
 	background: url('../images/purple_guit.jpg') no-repeat center center scroll;
   background-size: cover;
-    height: 400px;
+  height: 400px;
 }
 
 .image-bg-fixed-height-2 {
-	background: url('../images/tromb.jpg') no-repeat center center scroll;
+	background: url('../images/vanpic2.jpg') no-repeat center center scroll;
   background-size: cover;
-    height: 400px;
+  height: 400px;
+}
+
+.image-bg-fixed-height-3 {
+	background: url('../images/duck.jpg') no-repeat bottom center scroll;
+  background-size: cover;
+  height: 400px;
 }
 
 .img-center {
