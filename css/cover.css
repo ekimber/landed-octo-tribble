@@ -29,13 +29,19 @@ body {
 }
 
 .image-bg-fixed-height-2 {
-	background: url('../images/vanpic2.jpg') no-repeat center center scroll;
+	background: url('../images/circus_kids.jpg') no-repeat top center scroll;
   background-size: cover;
   height: 400px;
 }
 
 .image-bg-fixed-height-3 {
-	background: url('../images/duck.jpg') no-repeat bottom center scroll;
+	background: url('../images/owl_chainsaw.jpg') no-repeat center center scroll;
+  background-size: cover;
+  height: 400px;
+}
+
+.image-bg-fixed-height-4 {
+	background: url('../images/lasers.jpg') no-repeat bottom center scroll;
   background-size: cover;
   height: 400px;
 }
