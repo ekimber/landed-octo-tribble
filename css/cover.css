@@ -35,7 +35,7 @@ body {
 }
 
 .image-bg-fixed-height-3 {
-	background: url('../images/house_gro.jpg') no-repeat center center scroll;
+	background: url('../images/drumming.jpg') no-repeat center center scroll;
   background-size: cover;
   height: 400px;
 }
@@ -83,11 +83,6 @@ footer {
     margin: 50px 0;
     font-family: 'Asap', sans-serif;
 }
-
- .nav > li {
-   font-family: 'Asap', sans-serif;
-   font-size: 3em;
- }
 
 @media(max-width:768px) {
     section {
